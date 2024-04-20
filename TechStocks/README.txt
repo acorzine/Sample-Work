@@ -1,0 +1,1 @@
+The tech_stocks.db MUST be in the same folder as the tech_stocks.py for the program to work.
