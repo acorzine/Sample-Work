@@ -1,7 +1,7 @@
 # William Corzine
-# CS115U
 # calculator.py
 
+# Importing Graphics Module
 from tkinter import *
 
 root = Tk()
@@ -11,7 +11,7 @@ root.title("Simple Calculator")
 e = Entry(root, width = 35, borderwidth = 5)
 e.grid(row = 0, column = 0, columnspan = 3, padx = 10, pady = 10)
 
-# Creating buttons
+# Creating Functionality for Various Buttons
 def button_click(number):
     current = e.get()
     e.delete(0, END)
@@ -64,7 +64,7 @@ def button_divide():
     f_num = int(first_num)
     e.delete(0, END)
 
-# Defining buttons
+# Creating Button Graphics For Use
 button1 = Button(root, text = "1", padx = 40, pady = 20, command = lambda: button_click(1))
 button2 = Button(root, text = "2", padx = 40, pady = 20, command = lambda: button_click(2))
 button3 = Button(root, text = "3", padx = 40, pady = 20, command = lambda: button_click(3))
