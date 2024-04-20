@@ -1,0 +1,1 @@
+This is a simple GUI program that can either pull information from the movies.db and display that information or can be used to add movies to the database.
